@@ -1,0 +1,142 @@
+body{
+	    background-color white;
+	}
+
+	
+	a{
+	    text-decoration none;
+	    color black;
+	}
+	.NaoMetais{
+	    background-color #0500ff	;
+	    border 3px solid white;
+	}
+	.MetaisAlcalinos{
+	    background-color #8a2be2;
+	    border 3px solid white;
+	}
+	.SemiMetais{
+	    background-color #6b8e23;
+	    border 3px solid white;
+	}
+	.MetaisRepresentativos{
+	    background-color #87ceeb;
+	    border 3px solid white;
+	}
+	.Lantanideos{
+	    background-color #ff0100;
+	    border 3px solid white;
+	}
+	.GasesNobres{
+	    background-color #daa520;
+	    border 3px solid white;
+	}
+	.MetaisAlcalino-Terrosos{
+	    background-color #ff7f50;
+	    border 3px solid white;
+	}
+	.Halogenios{
+	    background-color #2e8b57;
+	    border 3px solid white;
+	}
+	.MetaisDeTransicao{
+	    background-color #ff4500;
+	    border 3px solid white;
+	}
+	.Actinideos{
+	    background-color #8b0000;
+	    border 3px solid white;
+	}
+	.table1 tdhover{
+	    transition .2s;
+	    transform scale(1.5);
+	    cursor pointer;
+	    z-index 2;
+        
+	}
+	.table2 tdhover{
+	    transition .2s;
+	    transform scale(1.5);
+	    cursor pointer;
+	    z-index 2;
+    
+	}
+	.numero{
+	    align-self flex-start;
+	    width 62px;
+	    font-size 15px;
+      text-align right;
+	}
+	.nome{
+	    font-size 23px;
+	    text-align center;
+	}
+	.elemento{
+	    font-size 11px;    
+	    text-align center;
+	}
+	.table2{
+	    margin-left 217px;
+	}
+	.descricao{
+      font-size 95px;
+	    text-align left;
+	    margin auto;
+	    border-collapse collapse;
+}
+    h1{
+	    text-align center;
+	    color white;
+      background-color grey;
+    
+	}
+	h2{
+	    text-align center;
+	    color white;
+      background-color grey;
+	}
+	}
+	.descricao td,th{
+      font-size 40px;
+	    border 4px solid white;
+	}
+	.descricao th{
+	    font-size 40px;
+	    background-color#9acd32;
+      border 4px solid white;
+	}
+	.num{
+	    width 1px;
+	}
+	.sbl{
+	    width 200px;
+	}
+	.name{
+	    width 150px;
+	}
+	.ma{
+	    width 180px;
+	}
+	.descricao tr{
+	    font-size 30px;
+	    background-color#9acd32;
+	}
+	.legenda{
+	    justify-content left;
+	    display grid;
+	    grid-template-columns 60px 150px 60px 200px 60px 150px 60px 150px 60px 150px;
+	}
+	.legenda p{
+	    height 25px;
+	    line-height 0px;
+	}
+	.sumario {
+	    width 50px;
+	    height 45px;
+	    
+	}
+	.descricao trtarget{
+	    background-color#9acd32;
+	    transition all 1s ease 0.01s;
+	}
+
